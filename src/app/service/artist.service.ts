@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 })
 export class ArtistService {
   
-  token: string = "BQAtSmAqFrB7xdgx9BuO95X-_khkcuukV5OPlvUkzQG9Y8RHwf2CfwjZvcOFHwbvzdVUzCLu1sv8dBbMqX00xklLfyhWEGFp6q8nJzQoubBBB9uOZccuXLIWVp_M-3HQo6WGwTFnoI2ICvb-HcWznb7ADBGQ";
+  token: string = "BQDzW3Jw837cwk2LRaSSUxx5d-guKV6rhypDnEyjwFysIwc4yTRg1TBLT1zFlKXKT3l7e7MfjMl1CTSXZrUnrjGahdHrY3HqVrwgJVEOA0AC0R-jLQcjqjK-7ZCafCX5dUeNHzHmu3hil4W13axjBs_7ecwT";
   clientId: string = "08889519b4c24d199dcfa8a0c731c598";
   nameOfArtist: string = '';
 
