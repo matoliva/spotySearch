@@ -1,0 +1,13 @@
+<div class="input-group input-group-lg container searchBar">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-lg">Search</span>
+  </div>
+  <input 
+    #search
+    (keydown.enter)="getArtist(search.value)"
+    type="text"
+    class="form-control" 
+    aria-label="Large" 
+    aria-describedby="inputGroup-sizing-sm"
+    placeholder="Type de name of your favourite artist">
+</div>

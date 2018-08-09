@@ -1,0 +1,21 @@
+
+<div class="card">
+  <div class="card-image" *ngIf="info.images[0]; else withOut">
+    <span class="title">{{info.name}}</span>
+    <img 
+      [src]="info.images[0].url"
+      alt="cover" 
+      width="200"
+      height="200">
+  </div>
+  <ng-template class="card" #withOut>
+    <div class="card-image">
+      <span class="title">{{info.name}}</span>
+      <img 
+        src="https://www.freeiconspng.com/uploads/no-image-icon-15.png"
+        alt="cover" 
+        width="200"
+        height="200">
+    </div>
+  </ng-template>
+</div>
